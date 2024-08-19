@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="images/png" href="images/brocode.png">
+        <title>THIS IS MY WEB PAGE</title>
+    </head>
+    <body>
+        <h1>This is a h1 heading</h1>
+        <h2>This is a h2 heading</h2>
+        <h3>This is a h3 heading</h3>
+        <h4>This is a h4 heading</h4>
+        <h5>This is a h5 heading</h5>
+        <hr>
+        <br>
+        <pre>
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Aspernatur numquam
+            nostrum sunt officiis fugiat voluptates
+            perferendis inventore explicabo est
+            iste corporis laboriosam quae, praesentium
+            officia nemo voluptas doloribus a placeat.
+        </pre>
+        <hr>
+        <br><br>
+        <a href="https://www.google.co.in/"
+        target="_blank"
+        title="goes to google">
+            click on me
+        </a>
+        <br>
+        <a href="https://www.jiosaavn.com/lyrics/aasa-kooda-lyrics/Nz0,YxhYRQI"
+        target="_blank"
+        title="goes to lyrics page">
+            song lyrics
+        </a>
+        <hr>
+        <br>
+        <h1>This is my cute dog</h1>
+        <a href="https://en.wikipedia.org/wiki/Dog"
+        target="_blank">
+        <img src="images/dog-puppy-on-garden-royalty-free-image-1586966191.avif"
+        alt="this is a picture of a dog"
+        height="200">
+        </a>
+        <h3>whoo whoo</h3>
+        <hr>
+        <br>
+        <p>Aasa kooda</p>
+        <audio controls autoplay loop>
+            <source src="songs/Aasa Kooda Sai Abhyankkar 128 Kbps.mp3">
+        </audio>
+        <hr>
+        <br>
+        <video controls loop>
+            <source src="videos/videoplayback.mp4" width="100px">
+        </video>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <p>This is a normal text</p>
+        <p>This is a <i>normal</i> text</p>
+        <p>This is a <b>normal</b> text</p>
+        <p>This is a <big>normal</big> text</p>
+        <p>This is a <small>normal</small> text</p>
+        <p>This is a <sub>normal</sub> text</p>
+        <p>This is a <sup>normal</sup> text</p>
+        <p>This is a <u>normal</u> text</p>
+        <p>This is a <del>normal</del> text</p>
+        <p>This is a <tt>normal<tt> text</p>
+        <p>This is a <mark>normal</mark> text</p>
+        <hr>
+        <br>
+        <h1><span style="background-color:tomato">This is a span text</span></h1>
+        <h1><div style="background-color:cyan">This is a div text</div></h1>
+        
+         <p><span style="background-color:tomato">This is a span text</span></p>   
+         <p><div style="background-color:cyan">This is a div text</div></p>
+         
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span style="background-color:tomato"> Totam quisquam, hic quis saepe sit reiciendis incidunt fugiat, beatae nulla sint eaque optio, reprehenderit officiis esse provident! Distinctio porro maxime corporis.</span></p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<div style="background-color:cyan"> Totam quisquam, hic quis saepe sit reiciendis incidunt fugiat, beatae nulla sint eaque optio, reprehenderit officiis esse provident! Distinctio porro maxime corporis.</div></p> 
+         <hr>
+         <br>
+         <h4>breakfast</h4>
+         <ul>
+            <li>bread</li>
+            <li>egg</li>
+            <li>milk</li>
+            <li>coffee</li>
+            <ul>
+                <li>sugar</li>
+                <li>coffee beans</li>
+            </ul>
+         </ul>
+         <h4>works to do</h4>
+         <ol>
+            <li>breakfast</li>
+            <li>go to school</li>
+            <li>walk</li>
+            <li>work</li>
+         </ol>
+         <dl>
+            <dt>dragons</dt>
+            <dd>a large animal with wings, which can breathe fire.</dd>
+            <dt>pheonix</dt>
+            <dd> a unique bird that lived for five or six centuries in the Arabian desert, after this time burning itself on a funeral.</dd>
+         </dl>
+         <hr>
+         <br>
+         <h3>store hours</h3>
+         <table border="1" style="background-color:black">
+            <tr align="centre" style="background-color:lightblue">
+                <th>sunday</th>
+                <th>monday</th>
+                <th>tuesday</th>
+                <th>wednesday</th>
+                <th>thursday</th>
+                <th>friday</th>
+                <th>saturday</th>
+            </tr>
+            <tr align="centre" style="background-color:aliceblue">
+                <th>closed</th>
+                <th>9-5</th>
+                <th>9-5</th>
+                <th>9-5</th>
+                <th>9-5</th>
+                <th>9-5</th>
+                <th>10-2</th>
+            </tr>
+         </table>
+         <hr>
+         <br>
+         <a href="https://www.google.co.in/" target="_blank" title="goes to google">
+             <button style="font-size:20px; background-color:grey; color:skyblue; border-radius:200px">click me</button>
+         </a>
+         <br>
+         <br>
+         <button onclick="dosomething()" style="font-size:20px; background-color:grey; color:skyblue; border-radius:200px">click me</button>
+
+         <p id="greeting">hello</p>
+
+         <script>
+            function dosomething(){
+                document.getElementById("greeting").innerHTML = "goodbye"
+            }
+         </script>
+        <br>
+        <hr>
+        <br>
+        <form action="index.php" method="POST">
+
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="ben10" minlength="6" maxlength="15" required><br>
+            
+            <label for="password">password:</label>
+            <input type="password" id="password" min="5" max="10"><br>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" pattern="ben10@gmail.com"><br>
+
+            <label for="phone">phone:</label>
+            <input type="tel" id="phone" placeholder="1234567890" pattern="[0-9]"><br>
+
+            <label for="bday">birthdate:</label>
+            <input type="date" id="bday"><br>
+
+            <label for="Quantity">Quantity:</label>
+            <input type="number" id="quantity" value="0-99" placeholder="1" min="1" max="99"><br>
+
+            <label for="title">title:</label>
+
+            <label for="Mr">Mr.:</label>
+            <input type="radio" id="Mr" value="Mr" name="title">
+            <label for="Mrs">Mrs.:</label>
+            <input type="radio" id="Mrs" value="Mrs" name="title"><br>
+            
+            <label for="payment">payment:</label>
+            <select>
+                <option value="phonepay">phonepay</option>
+                <option value="Gpay">Gpay</option>
+                <option value="paytm">paytm</option>
+            </select><br>
+
+            <label for="comment">comment:</label>
+            <input type="textarea" id="comment" rows="3" cols="25"><br>
+
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="image/jpeg, image/png"><br>
+
+            <input type="reset">
+            <input type="submit">
+        </form>
+        <br>
+        <hr>
+        <br>
+        
+    </body>
+</html>
